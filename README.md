@@ -2,4 +2,4 @@
 
 It's just a clock.
 
-[Demo](./src/assets/demo.gif)
+<img src="./src/assets/demo.gif" alt="Demo" width="500"/>
