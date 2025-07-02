@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@source inline("rotate-{0..360}");
+@source inline("-rotate-{0..360}");
+
+@theme {
+  --animate-second: second 60s linear infinite;
+  --animate-minute: minute 3600s linear infinite;
+  --animate-hour: hour 43200s linear infinite;
+
+  @keyframes second {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes minute {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes hour {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
