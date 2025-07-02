@@ -2,4 +2,4 @@
 
 It's just a clock.
 
-[](./src/assets/demo.gif)
+[Demo](./src/assets/demo.gif)
